@@ -3,7 +3,7 @@ body{
     margin: 0px;
 }
 
-.header, .intro, .info, .quote, .footer{
+.header, .intro, .info, .footer{
     display: flex;
     align-items: center;
     padding: 0px 100px;
@@ -14,8 +14,25 @@ body{
     background-color: #1F2937;
 }
 
-.info, .footer{
+.quote{
+    display: flex;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    padding: 0px 100px;
+}
 
+.info-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 1 175px;
+}
+
+.info-caption{
+    text-align: center;
+    width: 175px;
+    padding-top: 10px;
 }
 
 h1{
@@ -57,6 +74,24 @@ h2{
     height: 300px;
     margin-left: auto;
     padding: 30px 0px;
+}
+
+.info-img{
+    width: 175px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#saying{
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+}
+
+#quotee{
+    font-size: 18px;
+    font-style: bold;
+    text-align: right;
 }
 
 button{
