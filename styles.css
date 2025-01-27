@@ -3,15 +3,27 @@ body{
     margin: 0px;
 }
 
-.header, .intro, .info, .footer{
+.header, .intro, .info{
     display: flex;
     align-items: center;
-    padding: 0px 100px;
+}
+
+.intro{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.info, .quote{
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .header, .intro{
     color: #d6fdae;
     background-color: #1F2937;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .quote{
@@ -19,7 +31,8 @@ body{
     color: #1f2937;
     background-color: #e5e7eb;
     flex-direction: column;
-    padding: 0px 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .info-item{
@@ -71,7 +84,7 @@ h2{
 
 .image-one{
     width: auto;
-    height: 300px;
+    height: 200px;
     margin-left: auto;
     padding: 30px 0px;
 }
@@ -85,20 +98,34 @@ h2{
 #saying{
     font-size: 36px;
     font-style: italic;
-    text-align: left;
+    text-align: center;
 }
 
 #quotee{
     font-size: 18px;
-    font-style: bold;
+    font-weight: bold;
     text-align: right;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    margin: 50px 100px;
+    padding: 25px 50px;
 }
 
 button{
     background-color: #3882f6;
     color: #d6fdae;
-    border: 0px;
     border-radius: 6px;
     padding: 5px 20px;
     margin-top: 20px;
+    border-color: white;
+}
+
+.signup-button{
+    margin-left: auto;
 }
